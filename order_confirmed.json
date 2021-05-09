@@ -1,0 +1,27 @@
+{
+    "EventBase":{
+       "EventID":"9ee2923a-f5d1-4ced-ae8a-6152716785df",
+       "EventName": "OrderConfirmed",
+       "EventTimestamp":"2020-10-0316T17:00:39.087555-04:00"
+    },
+    "EventBody":{
+       "id":"250dafa5-4dbf-4692-8d83-83f1bcb25d0d",
+       "products":[
+          {
+             "productCode":"12345",
+             "quantity":2
+          }
+       ],
+       "customer":{
+          "firstName":"Tom",
+          "lastName":"Hardy",
+          "emailAddress":"tom.hardy@email.com",
+          "shippingAddress":{
+             "line1":"123 Anywhere St",
+             "city":"Anytown",
+             "state":"AL",
+             "postalCode":"12345"
+          }
+       }
+    }
+ }
