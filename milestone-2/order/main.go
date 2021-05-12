@@ -6,8 +6,8 @@ import (
 	"syscall"
 	"time"
 
-	"milestone-2/config"
-	"milestone-2/order/cmd/server"
+	"github.com/titanlien/asynchronous-events/milestone-2/config"
+	"github.com/titanlien/asynchronous-events/milestone-2/order/cmd/server"
 	log "github.com/sirupsen/logrus"
 )
 

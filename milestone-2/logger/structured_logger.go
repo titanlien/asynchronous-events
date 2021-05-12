@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"milestone-2/config"
+	"github.com/titanlien/asynchronous-events/milestone-2/config"
 	"github.com/go-chi/chi/middleware"
 	"github.com/sirupsen/logrus"
 )
