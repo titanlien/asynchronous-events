@@ -6,9 +6,9 @@ import (
 	"syscall"
 	"time"
 
+	log "github.com/sirupsen/logrus"
 	"github.com/titanlien/asynchronous-events/milestone-2/config"
 	"github.com/titanlien/asynchronous-events/milestone-2/order/cmd/server"
-	log "github.com/sirupsen/logrus"
 )
 
 func init() {
