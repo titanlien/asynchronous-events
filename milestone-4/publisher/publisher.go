@@ -6,8 +6,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/confluentinc/confluent-kafka-go.v1/kafka"
 
-	"github.com/titanlien/asynchronous-events/milestone-3/config"
-	"github.com/titanlien/asynchronous-events/milestone-3/events"
+	"github.com/titanlien/asynchronous-events/milestone-4/config"
+	"github.com/titanlien/asynchronous-events/milestone-4/events"
 )
 
 // PublishEvent will publish the specified event to the messaging system (currently running on localhost)

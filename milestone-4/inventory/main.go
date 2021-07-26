@@ -8,7 +8,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	"github.com/titanlien/asynchronous-events/milestone-4/config"
-	"github.com/titanlien/asynchronous-events/milestone-4/order/cmd/server"
+	"github.com/titanlien/asynchronous-events/milestone-4/inventory/cmd/consumer"
 )
 
 func init() {
@@ -35,9 +35,11 @@ func main() {
 		os.Exit(0)
 	}()
 
-	s := server.Server{
-		Port: config.Port(),
+	c := consumer.Consumer{
+		Broker: config.BrokerAddress(),
+		Group:  config.ConsumerGroup(),
+		Topic:  config.OrderReceivedTopicName,
 	}
 
-	log.Fatal(s.ListenAndServe())
+	log.Fatal(c.SubscribeAndListen())
 }

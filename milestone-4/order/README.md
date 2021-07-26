@@ -21,7 +21,7 @@
 
 1. Navigate to the directory containing the _code_ 
     ```shell
-    $> cd Asynchronous-Event-Handling-Using-Microservices-and-Kafka/milestone3/code/order
+    $> cd asynchronous-events/milestone-4/order
     ```
 
 1. Start the service

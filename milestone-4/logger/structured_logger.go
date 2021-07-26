@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-chi/chi/middleware"
 	"github.com/sirupsen/logrus"
-	"github.com/titanlien/asynchronous-events/milestone-3/config"
+	"github.com/titanlien/asynchronous-events/milestone-4/config"
 )
 
 // NewStructuredLogger is a simple, but powerful implementation of a custom structured

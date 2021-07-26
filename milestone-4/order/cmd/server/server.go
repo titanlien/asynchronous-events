@@ -8,8 +8,8 @@ import (
 	"github.com/go-chi/chi/middleware"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/titanlien/asynchronous-events/milestone-3/logger"
-	"github.com/titanlien/asynchronous-events/milestone-3/order/internal/handlers"
+	"github.com/titanlien/asynchronous-events/milestone-4/logger"
+	"github.com/titanlien/asynchronous-events/milestone-4/order/internal/handlers"
 )
 
 // Server represents the web server hosting the service

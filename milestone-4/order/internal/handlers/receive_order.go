@@ -9,10 +9,10 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"github.com/google/uuid"
-	"github.com/titanlien/asynchronous-events/milestone-3/config"
-	"github.com/titanlien/asynchronous-events/milestone-3/events"
-	"github.com/titanlien/asynchronous-events/milestone-3/models"
-	"github.com/titanlien/asynchronous-events/milestone-3/publisher"
+	"github.com/titanlien/asynchronous-events/milestone-4/config"
+	"github.com/titanlien/asynchronous-events/milestone-4/events"
+	"github.com/titanlien/asynchronous-events/milestone-4/models"
+	"github.com/titanlien/asynchronous-events/milestone-4/publisher"
 )
 
 // ReceiveOrder handler will accept an order, validate the payload and publish an OrderReceived event to Kafka.
